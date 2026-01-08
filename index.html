@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>Tasty Bites Restaurant</title>
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/020/398/629/original/restaurant-building-icon-in-simple-black-design-isolated-on-white-background-free-vector.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<header>
+    <h1>Tasty Bites</h1>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Homepage -->
+<section id="home" class="pic">
+    <h2>Delicious Food & Great Ambience</h2>
+    <p>Serving Happiness on Every Plate</p>
+    <button onclick="showMessage()">Order Now</button>
+</section>
+
+<!-- Menu -->
+<section id="menu">
+    <h2>Our Menu</h2>
+
+    <h3>🍕 Starters</h3>
+    <div class="menu-items">
+        <div class="item">Garlic Bread – ₹129</div>
+        <div class="item">French Fries – ₹99</div>
+        <div class="item">Paneer Tikka – ₹189</div>
+    </div>
+
+    <h3>🍔 Main Course</h3>
+    <div class="menu-items">
+        <div class="item">Veg Burger – ₹149</div>
+        <div class="item">Cheese Pizza – ₹299</div>
+        <div class="item">Pasta Alfredo – ₹249</div>
+        <div class="item">Veg Biryani – ₹219</div>
+    </div>
+
+    <h3>🍰 Desserts</h3>
+    <div class="menu-items">
+        <div class="item">Chocolate Cake – ₹149</div>
+        <div class="item">Ice Cream – ₹99</div>
+        <div class="item">Brownie – ₹129</div>
+    </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery">
+    <h2>Restaurant Gallery</h2>
+    <div class="gallery img">
+        <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9">
+        <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1">
+        <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4">
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5">
+        <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330">
+    </div>          
+</section>
+
+<!-- About -->
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Tasty Bites is a premium restaurant offering delicious meals, cozy
+        ambience, and excellent service. We use fresh ingredients and love
+        serving happiness.
+    </p>
+</section>
+
+<!-- Contact -->
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="return submitForm()">
+        <input type="text" id="name" placeholder="Enter Your Name" required>
+        <input type="email" id="email" placeholder="Enter Your Email" required>
+        <textarea placeholder="Your Message"></textarea>
+        <br>        
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2025 Tasty Bites Restaurant | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
